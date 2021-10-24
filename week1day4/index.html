@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <title>week1day4</title>
+</head>
+<body>
+<h1>
+    HTML
+</h1>
+
+<p class="pgreen">
+    HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки») — стандартизированный язык разметки документов для просмотра веб-страниц в браузере. Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора.
+</p>
+<hr>
+<h2>
+    Общее представление
+
+</h2>
+
+<p>
+    Язык гипертекстовой разметки HTML был разработан британским учёным Тимом Бернерсом-Ли приблизительно в 1986—1991 годах в стенах ЦЕРНа в Женеве в Швейцарии[3]. HTML создавался как язык для обмена научной и технической документацией, пригодный для использования людьми, не являющимися специалистами в области вёрстки. HTML успешно справлялся с проблемой сложности SGML путём определения небольшого набора структурных и семантических элементов — дескрипторов. Дескрипторы также часто называют «тегами». С помощью HTML можно легко создать относительно простой, но красиво оформленный документ. Помимо упрощения структуры документа, в HTML внесена поддержка гипертекста. Мультимедийные возможности были добавлены позже.
+</p>
+
+<hr>
+
+<div class="span1">
+   <div class="span2">
+    TEST SPAN
+</div>
+</div>
+<hr>
+
+<h3>Блок 2</h3>
+
+<div class="formdiv">
+<form action="" >
+    <fieldset>
+        <legend>Checkbox</legend>
+        <input type="checkbox">
+        <input type="checkbox" disabled>
+    </fieldset>
+
+    <fieldset>
+        <legend>File</legend>
+        <input type="File">
+        <input type="File" disabled>
+    </fieldset>
+
+     <fieldset>
+        <legend>Image</legend>
+        <input type="Image">
+        <input type="Image" disabled>
+    </fieldset>
+         <fieldset>
+        <legend>password</legend>
+        <input type="password">
+        <input type="password" disabled>
+    </fieldset>
+    <fieldset>
+        <legend>Text</legend>
+        <input type="text">
+        <input type="text" disabled>
+    </fieldset>
+    <fieldset>
+        <legend>Email</legend>
+        <input type="Email">
+        <input type="Email" disabled>
+    </fieldset>
+    <fieldset>
+        <legend>Date</legend>
+        <input type="date">
+        <input type="date" disabled>
+    </fieldset>
+<p></p>
+    <form action="">
+        <fieldset>
+
+        <legend>Radio buttons</legend>
+        <div><input name="dzen" type="radio" value="nedzen"> Не дзен</div>
+        <div><input name="dzen" type="radio" value="dzen"> Дзен</div>
+        <div><input name="dzen" type="radio" value="pdzen" checked> Полный дзен</div>     </fieldset>
+    </form>
+
+    <p></p>
+    <input type="submit">
+    <p></p>
+    <button type="submit">Кнопочка баттон тут можно менять текст</button>
+    
+</form>
+</div>
+<p></p>
+<textarea class="textareanoresize" name="test" id="test" cols="30" rows="3" maxlength="100" ></textarea>
+<textarea name="testsize" id="test" cols="30" rows="3" maxlength="100" ></textarea>
+<p></p>
+<select name="select1" id="select1">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select>
+<p>
+</p>
+<select name="select1" id="select1" multiple>
+    <option value="12">М</option>
+    <option value="22">Ж</option>
+    <option value="33">МЖМ</option>
+</select>
+<p></p>
+<form action="">
+<!--    <legend>еще одна форма</legend>-->
+    <fieldset>
+        <legend>Еще одна форма</legend>
+        <div>ваш эмейл</div>
+        <input type="Email" tabindex="3">
+        <p></p>
+        <div>ваш пассворд</div>
+        <input type="password" tabindex="2">
+        <p>
+        </p>
+        <button type="submit" tabindex="1">тык</button>
+    </fieldset>
+</form>
+</body>
+</html>
