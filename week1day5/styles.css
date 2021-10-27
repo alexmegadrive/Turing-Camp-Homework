@@ -1,0 +1,191 @@
+.div11 {
+    width:200px;
+    height:200px;
+    background-color: blue;
+    border: 2px solid red  ;
+}
+
+.div12 {
+    width:200px;
+    height:200px;
+    background-color: aquamarine;
+    border: 10px double black  ;
+    border-radius: 50%;
+    /*outline: 5px solid black;*/
+    outline-offset: -10px;
+    outline;
+}
+
+.tableblock {
+    width: 50%;
+    /*border: 1px solid black;*/
+    /*border-radius: 20px;*/
+}
+
+th {
+    /*border: 1px solid black;*/
+    text-align: center;
+    vertical-align: center;
+    width:70px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+
+}
+td {
+    /*border: 1px solid black;*/
+    /*text-align: center;*/
+    vertical-align: center;
+    width:70px;
+    height: 30px;
+    /*background-color: burlywood;*/
+
+}
+th:first-child {
+    border-radius: 10px 0px 0 0;
+}
+
+th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.tableblock__lastrow > td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+.tableblock__lastrow > td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+sup {
+    color: red;
+}
+
+sub {color:blue;}
+
+.div14 {
+    background-color: darksalmon;
+    width:30%;
+    height:60px;
+}
+.div14-2 {
+    display: grid;
+    justify-content: center;
+    /*display: table-cell;*/
+    font-family: Calibri  ;
+    font-style: italic;
+    /*display: inline-block;*/
+    /*align-content: center;*/
+    /*position: relative;*/
+    /*height:60px;*/
+
+}
+.span1 {
+    color:aquamarine;
+    margin-left: 10px;
+    text-decoration: underline ;
+
+
+}
+.span2 {
+    color:green;
+    margin-left: 10px;
+    text-decoration: underline ;
+
+}
+.span3 {
+    color:fuchsia;
+    margin-left: 10px;
+    text-decoration: underline ;
+
+
+}
+
+
+.pie-container {
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.pie{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #aaaaaa;
+    border-radius: 50%;
+    clip: rect(0px, 75px, 150px, 0px);
+}
+
+#safari{
+    z-index: 10;
+    background-color: #aaaaaa;
+    transform: rotate(-20deg);
+}
+
+#ie {
+    z-index: 20;
+    background-color: #0074d9;
+    transform: rotate(160deg);
+}
+
+#firefox {
+    z-index: 30;
+    background-color: #ff851b;
+    transform: rotate(20deg);
+}
+
+#chrome {
+    z-index: 40;
+    background-color: #2ecc40;
+    transform: rotate(100deg);
+}
+
+.formmain {
+    width:70%;
+    height:500px;
+    align-content: center;
+    background-color: #d7d6d6;
+    border-radius: 10px;
+
+}
+
+.form__registration {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.insideform {
+    margin-left: 50%;
+}
+
+td {
+    background-color: #d7d6d6;
+}
+
+td:first-child {
+    text-align: right;
+}
+
+.inputdiv {
+    alignment: left;
+    width: 100%;
+    clear: both;
+}
+
+input { display: table-cell; }
+
+.form__registerbutton {
+    background-color: blue;
+    color: white;
+    /*border-width: px;*/
+    margin-right: 10px;
+
+}
+
+ {
+}
