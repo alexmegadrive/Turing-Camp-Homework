@@ -13,7 +13,7 @@
     border-radius: 50%;
     /*outline: 5px solid black;*/
     outline-offset: -10px;
-    outline;
+    /*outline;*/
 }
 
 .tableblock {
@@ -32,13 +32,13 @@ th {
     color: white;
 
 }
-td {
-    /*border: 1px solid black;*/
-    /*text-align: center;*/
+td.td13 {
+    border: 1px solid black;
+    text-align: center;
     vertical-align: center;
     width:70px;
     height: 30px;
-    /*background-color: burlywood;*/
+    background-color: burlywood;
 
 }
 th:first-child {
@@ -67,9 +67,12 @@ sub {color:blue;}
     background-color: darksalmon;
     width:30%;
     height:60px;
+    position: relative;
 }
 .div14-2 {
-    display: grid;
+    position: absolute;
+    display: flex;
+    top: 33%;
     justify-content: center;
     /*display: table-cell;*/
     font-family: Calibri  ;
@@ -104,7 +107,7 @@ sub {color:blue;}
 
 .pie-container {
     position: relative;
-    float: left;
+    /*float: left;*/
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -168,7 +171,7 @@ td {
 }
 
 td:first-child {
-    text-align: right;
+    text-align: center;
 }
 
 .inputdiv {
@@ -187,5 +190,169 @@ input { display: table-cell; }
 
 }
 
- {
+.menu__wrapper {
+    /*background-color: cadetblue*/
+}
+.menu__main {
+
+    /*position: absolute;*/
+    display: flex;
+    list-style: none;
+
+
+}
+.menu__punkt li {
+    /*display: inline-block;*/
+    display: block;
+    top:20px;
+    left:20px;
+
+    left: 10px;
+}
+
+.menu__punkt li:hover {
+    display: block;
+    top:20px;
+    left:20px;
+    left: 10px;
+}
+
+
+.menu__main li > ul {
+    display: none;
+    box-shadow: 0 0 10px #d7d6d6;
+
+}
+
+.menu__main li:hover > ul {
+    display: block;
+}
+
+.menu__main li > ul > li:hover {
+    display: block;
+    background-color: #0074d9;
+}
+
+.flag__russia {
+    width: 200px;
+    height: 99px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 1;
+    position: relative;
+}
+
+.flag__russia_2
+{
+    position: absolute;
+    width: 200px;
+    height: 66px;
+    z-index: 2;
+    top: 33px;
+    background-color: blue;
+}
+
+.flag__russia_3
+{
+    position: absolute;
+    width: 200px;
+    height: 33px;
+    z-index: 3;
+    top: 66px;
+    background-color: red;
+}
+
+.flag__japan {
+    width: 200px;
+    height: 99px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.flag__japan_2
+{
+
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    top: 18%;
+    left: 33%;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.div21 {
+
+    width: 50%;
+    height: 100px;
+    position: relative;
+    background-color: #d1eaea;
+    box-shadow: 2px 2px 5px 3px black ;
+    /*z-index: 1;*/
+}
+.div21 > ul {
+    color: black;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+
+
+.li21 {
+    /*top: 10%;*/
+    list-style: none;
+    /*z-index: 2;*/
+}
+
+.knopka {
+    width: 100px;
+    height: 40px;
+    box-shadow: 0 0 10px inset black;
+    border-radius: 7px;
+}
+
+.border_grad {
+    width: 200px;
+    height: 90px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(  #7a1b5a, #0B95DD);
+    /*background: linear-gradient(to right, red, purple);    !*box-shadow: 0 0 10px inset black;*!*/
+    border-radius: 7px;
+    background-color: #484545;
+    border-image-slice: 1;
+
+}
+
+.menu24container {
+    width: 70%;
+    height: 40px;
+    display: flex;
+    border-radius: 0px 20px 20px 0px;
+    background: linear-gradient( #ffffff, #53471a) ;
+    position: relative;
+}
+
+.menu24container > div {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    /*top: 25%;*/
+    /*justify-content: center;*/
+    padding-right: 20px;
+    padding-left: 20px;
+    /*box-shadow: 0 0 2px black;*/
+    border-radius: 0px 20px 20px 0px;
+    border: 0px solid transparent;
+    box-shadow: 5px 0px 9px -6px black;
+    /*box-shadow: 0 0 5px inset white;*/
+}
+.menu24container > div > span {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 10px;
 }
