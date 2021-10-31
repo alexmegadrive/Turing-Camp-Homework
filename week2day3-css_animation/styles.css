@@ -1,4 +1,21 @@
+.div1-1 {
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    top:30%;
+    background: darkred;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s linear;
 
+}
+.div1-1:hover {
+    transition: 2s linear;
+    background: blue;
+
+}
 .div2-1 {
     height: 100px;
     width: 100px;
