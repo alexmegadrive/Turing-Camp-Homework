@@ -15,6 +15,6 @@ let pass = 'testpass';
 let log_typed = prompt('Введите логин');
 let pass_typed = prompt('Введите пароль');
 
-if ((log === log_typed) || (pass === pass_typed)) {
+if ((log === log_typed) && (pass === pass_typed)) {
 alert ('Авторизация успешна!');}
 else {alert ('Логин/пароль неверные') }
