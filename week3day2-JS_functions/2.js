@@ -2,7 +2,8 @@
 
 let digit1 = prompt('Введите 1 число');
 let digit2 = prompt('Введите 2 число');
-
+Number(digit1);
+Number(digit2);
 function myFunc(a,b)
 {
 
