@@ -1,0 +1,89 @@
+.container {
+    display: grid;
+/*grid-template-columns: 1fr 1fr 1fr 1fr ;*/
+    grid-template-rows: 1fr 1fr 1fr;
+    outline: 1px solid black;
+    justify-content: space-between;
+    grid-gap: 20px;
+}
+
+.cont1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-content: space-between;
+    width: 100% ;
+    align-content: center;
+
+
+}
+.cont2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+}
+.cont3 {
+    display: grid;
+    justify-content: center;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    margin: 20px;
+
+
+}
+
+.cont__block {
+    width: 150px;
+    height: 120px;
+    outline: 1px solid black;
+    margin: 25px;
+}
+
+
+.cont_flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.container2 {
+    display: grid;
+    width: 70vw;
+    min-width: 780px;
+    height: 500px;
+ outline: 1px solid black;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    /*grid-gap: 20px;*/
+    /*align-content: center;*/
+    grid-template-areas:
+       'a b c'
+       'd d f'
+       'e e f'
+    ;
+}
+.container2 > div {
+    min-width: 150px;
+    min-height: 120px;
+    outline: 1px solid black;
+    margin: 10px;
+}
+.a {
+    grid-area: a;
+}
+.b {
+    grid-area: b;
+}
+.c {
+    grid-area: c;
+}
+.d {
+    grid-area: d;
+}
+.e {
+    grid-area: e;
+}
+.f {
+    grid-area: f;
+}
