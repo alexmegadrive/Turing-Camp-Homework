@@ -1,0 +1,358 @@
+.div11 {
+    width:200px;
+    height:200px;
+    background-color: blue;
+    border: 2px solid red  ;
+}
+
+.div12 {
+    width:200px;
+    height:200px;
+    background-color: aquamarine;
+    border: 10px double black  ;
+    border-radius: 50%;
+    /*outline: 5px solid black;*/
+    outline-offset: -10px;
+    /*outline;*/
+}
+
+.tableblock {
+    width: 50%;
+    /*border: 1px solid black;*/
+    /*border-radius: 20px;*/
+}
+
+th {
+    /*border: 1px solid black;*/
+    text-align: center;
+    vertical-align: center;
+    width:70px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+
+}
+td.td13 {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: center;
+    width:70px;
+    height: 30px;
+    background-color: burlywood;
+
+}
+th:first-child {
+    border-radius: 10px 0px 0 0;
+}
+
+th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+.tableblock__lastrow > td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+.tableblock__lastrow > td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+sup {
+    color: red;
+}
+
+sub {color:blue;}
+
+.div14 {
+    background-color: darksalmon;
+    width:30%;
+    height:60px;
+    position: relative;
+}
+.div14-2 {
+    position: absolute;
+    display: flex;
+    top: 33%;
+    justify-content: center;
+    /*display: table-cell;*/
+    font-family: Calibri  ;
+    font-style: italic;
+    /*display: inline-block;*/
+    /*align-content: center;*/
+    /*position: relative;*/
+    /*height:60px;*/
+
+}
+.span1 {
+    color:aquamarine;
+    margin-left: 10px;
+    text-decoration: underline ;
+
+
+}
+.span2 {
+    color:green;
+    margin-left: 10px;
+    text-decoration: underline ;
+
+}
+.span3 {
+    color:fuchsia;
+    margin-left: 10px;
+    text-decoration: underline ;
+
+
+}
+
+
+.pie-container {
+    position: relative;
+    /*float: left;*/
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.pie{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #aaaaaa;
+    border-radius: 50%;
+    clip: rect(0px, 75px, 150px, 0px);
+}
+
+#safari{
+    z-index: 10;
+    background-color: #aaaaaa;
+    transform: rotate(-20deg);
+}
+
+#ie {
+    z-index: 20;
+    background-color: #0074d9;
+    transform: rotate(160deg);
+}
+
+#firefox {
+    z-index: 30;
+    background-color: #ff851b;
+    transform: rotate(20deg);
+}
+
+#chrome {
+    z-index: 40;
+    background-color: #2ecc40;
+    transform: rotate(100deg);
+}
+
+.formmain {
+    width:70%;
+    height:500px;
+    align-content: center;
+    background-color: #d7d6d6;
+    border-radius: 10px;
+
+}
+
+.form__registration {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.insideform {
+    margin-left: 50%;
+}
+
+td {
+    background-color: #d7d6d6;
+}
+
+td:first-child {
+    text-align: center;
+}
+
+.inputdiv {
+    alignment: left;
+    width: 100%;
+    clear: both;
+}
+
+input { display: table-cell; }
+
+.form__registerbutton {
+    background-color: blue;
+    color: white;
+    /*border-width: px;*/
+    margin-right: 10px;
+
+}
+
+.menu__wrapper {
+    /*background-color: cadetblue*/
+}
+.menu__main {
+
+    /*position: absolute;*/
+    display: flex;
+    list-style: none;
+
+
+}
+.menu__punkt li {
+    /*display: inline-block;*/
+    display: block;
+    top:20px;
+    left:20px;
+
+    left: 10px;
+}
+
+.menu__punkt li:hover {
+    display: block;
+    top:20px;
+    left:20px;
+    left: 10px;
+}
+
+
+.menu__main li > ul {
+    display: none;
+    box-shadow: 0 0 10px #d7d6d6;
+
+}
+
+.menu__main li:hover > ul {
+    display: block;
+}
+
+.menu__main li > ul > li:hover {
+    display: block;
+    background-color: #0074d9;
+}
+
+.flag__russia {
+    width: 200px;
+    height: 99px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 1;
+    position: relative;
+}
+
+.flag__russia_2
+{
+    position: absolute;
+    width: 200px;
+    height: 66px;
+    z-index: 2;
+    top: 33px;
+    background-color: blue;
+}
+
+.flag__russia_3
+{
+    position: absolute;
+    width: 200px;
+    height: 33px;
+    z-index: 3;
+    top: 66px;
+    background-color: red;
+}
+
+.flag__japan {
+    width: 200px;
+    height: 99px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.flag__japan_2
+{
+
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    top: 18%;
+    left: 33%;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.div21 {
+
+    width: 50%;
+    height: 100px;
+    position: relative;
+    background-color: #d1eaea;
+    box-shadow: 2px 2px 5px 3px black ;
+    /*z-index: 1;*/
+}
+.div21 > ul {
+    color: black;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+
+
+.li21 {
+    /*top: 10%;*/
+    list-style: none;
+    /*z-index: 2;*/
+}
+
+.knopka {
+    width: 100px;
+    height: 40px;
+    box-shadow: 0 0 10px inset black;
+    border-radius: 7px;
+}
+
+.border_grad {
+    width: 200px;
+    height: 90px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(  #7a1b5a, #0B95DD);
+    /*background: linear-gradient(to right, red, purple);    !*box-shadow: 0 0 10px inset black;*!*/
+    border-radius: 7px;
+    background-color: #484545;
+    border-image-slice: 1;
+
+}
+
+.menu24container {
+    width: 70%;
+    height: 40px;
+    display: flex;
+    border-radius: 0px 20px 20px 0px;
+    background: linear-gradient( #ffffff, #53471a) ;
+    position: relative;
+}
+
+.menu24container > div {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    /*top: 25%;*/
+    /*justify-content: center;*/
+    padding-right: 20px;
+    padding-left: 20px;
+    /*box-shadow: 0 0 2px black;*/
+    border-radius: 0px 20px 20px 0px;
+    border: 0px solid transparent;
+    box-shadow: 5px 0px 9px -6px black;
+    /*box-shadow: 0 0 5px inset white;*/
+}
+.menu24container > div > span {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 10px;
+}
